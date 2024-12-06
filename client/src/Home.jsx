@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import Swal from 'sweetalert2';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://full-stack-todo-v05q.onrender.com';
 const STATUS = {
     ACTIVE: 'active',
     COMPLETED: 'completed',
