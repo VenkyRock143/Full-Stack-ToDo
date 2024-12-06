@@ -10,10 +10,10 @@ app.use(cors()); // Enable cross-origin resource sharing
 
 // Database configuration
 const db = mysql.createConnection({
-    host:process.env.DB_HOST,
-    user:process.env.DB_USER,
-    password:process.env.DB_PASSWORD,
-    database:process.env.DB_DATABASE,
+    host:'sql12.freemysqlhosting.net',
+    user:'sql12750233',
+    password:'lNiqrEQlSb',
+    database:'sql12750233',
 });
 db.connect((err) => {
     if (!err) {
